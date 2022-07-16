@@ -7,6 +7,7 @@ public class CODEUP1053 { // 참 거짓 바꾸기
 
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
+
         if (a == 1) {
             System.out.println(0);
         } else {
