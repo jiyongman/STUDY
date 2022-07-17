@@ -14,7 +14,7 @@ public class BOJ14645 { // 와이버스 부릉부릉
             int B = sc.nextInt(); // 하차하는 인원
         }
 
-        System.out.println("비와이");
+        System.out.println("비와이"); // 운전수 이름 출력
         sc.close();
     }
 }
