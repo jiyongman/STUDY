@@ -10,6 +10,7 @@ public class BOJ3733 { // Shares
         while (sc.hasNext()) { // End Of File 처리
             int N = sc.nextInt();
             int S = sc.nextInt();
+
             System.out.println(S / (N + 1));
         }
 
