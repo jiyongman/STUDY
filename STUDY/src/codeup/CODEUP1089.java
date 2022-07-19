@@ -10,7 +10,7 @@ public class CODEUP1089 { // 수 나열하기1
         int d = sc.nextInt(); // 등차의 값
         int n = sc.nextInt(); // 몇 번째 인지를 의미하는 정수
 
-        System.out.println(a + (n - 1) * d); // 등차수열의 일반항 공식
+        System.out.println(a + (n - 1) * d); // 등차수열의 일반항 공식, n번째 항 = a + (n - 1) * d
         sc.close();
     }
 }
