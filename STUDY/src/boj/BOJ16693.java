@@ -18,6 +18,7 @@ public class BOJ16693 { // Pizza Deal
 		} else {
 			System.out.println("Slice of pizza");
 		}
+		
 		sc.close();
 	}
 }
