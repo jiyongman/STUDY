@@ -12,17 +12,23 @@ public class BOJ2446 { // 별 찍기 - 9
 			for (int j = 0; j < i; j++) {
 				System.out.print(" ");
 			}
-			for (int k = 0; k < 2 * N - 1 - (2 * i); k++) {
+			for (int j = 0; j < N - i; j++) {
+				System.out.print("*");
+			}
+			for (int j = 0; j < N - i - 1; j++) {
 				System.out.print("*");
 			}
 			System.out.println();
 		}
 		
-		for (int i = 0; i < N - 1; i++) {
-			for (int j = 1; j < N - 1 - i; j++) {
+		for (int i = N - 1; i > 0; i--) {
+			for (int j = 0; j < i - 1; j++) {
 				System.out.print(" ");
 			}
-			for (int k = 0; k < 3 + (2 * i); k++) {
+			for (int j = 0; j < N - i; j++) {
+				System.out.print("*");
+			}
+			for (int j = 0; j < N - i + 1; j++) {
 				System.out.print("*");
 			}
 			System.out.println();
