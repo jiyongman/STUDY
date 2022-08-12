@@ -16,9 +16,9 @@ public class BOJ16283 { // Farm
 		
 		for (int i = 1; i < n; i++) {
 			if (i * a + (n - i) * b == w) {
-				cnt++;
 				s = i;
 				g = n - i;
+				cnt++;
 			}
 		}
 		
