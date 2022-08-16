@@ -9,7 +9,7 @@ public class BOJ15372 { // A Simple Problem.
 		int T = sc.nextInt(); // the number of test cases
 		
 		for (int i = 0; i < T; i++) {
-			long N = sc.nextInt();
+			long N = sc.nextLong();
 			long K = N * N;
 			System.out.println(K);
 		}
