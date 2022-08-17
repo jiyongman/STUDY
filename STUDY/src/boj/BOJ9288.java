@@ -9,7 +9,7 @@ public class BOJ9288 { // More Dice
 		int t = sc.nextInt(); // the number of test cases
 		
 		for (int x = 1; x <= t; x++) {
-			int s = sc.nextInt();
+			int s = sc.nextInt(); // the sum of a roll of two 6-sided dice
 			
 			System.out.println("Case " + x + ":");
 			
