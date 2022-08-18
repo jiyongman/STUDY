@@ -16,7 +16,7 @@ public class BOJ9299 { // Math Tutoring
 			System.out.print("Case " + x + ": " + (n - 1) + " ");
 			
 			for (int y = 0; y < n + 1; y++) {
-				a[y] = sc.nextInt();
+				a[y] = sc.nextInt(); // the coefficients of the terms x^n down to x^0 = 1
 			}
 			
 			for (int y = 0; y < n; y++) {
