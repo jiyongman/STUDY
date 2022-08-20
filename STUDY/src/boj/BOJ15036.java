@@ -25,7 +25,6 @@ public class BOJ15036 { // Just A Minim
 			} else {
 				L += 0.0625;
 			}
-			
 		}
 		
 		System.out.println(L);
