@@ -7,7 +7,7 @@ public class BOJ25600 { // Triathlon
 
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt(); // 참가자의 수
-        int max = 0;
+        int max = 0; // 가장 높은 점수
         int score = 0;
 
         for (int i = 0; i < N; i++) {
