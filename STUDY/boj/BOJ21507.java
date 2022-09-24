@@ -1,5 +1,4 @@
 package boj;
-import java.math.BigInteger;
 import java.util.*;
 
 public class BOJ21507 { // POBEDA-2014
@@ -7,13 +6,18 @@ public class BOJ21507 { // POBEDA-2014
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        BigInteger a1 = sc.nextBigInteger();
-        BigInteger a2 = sc.nextBigInteger();
-        BigInteger a3 = sc.nextBigInteger();
-        BigInteger a4 = sc.nextBigInteger();
-        BigInteger n = (a1.min(a2).add(a3.min(a4)));
+        long a = sc.nextLong();
+        long b = sc.nextLong();
+        long c = sc.nextLong();
+        long d = sc.nextLong();
+        long sum = Math.min(a, b) + Math.min(c, d);
+        long n = (long) Math.sqrt(sum);
 
-        System.out.println(n.sqrt());
+        while (n * n > sum) {
+            n--;
+        }
+
+        System.out.println(n);
         sc.close();
     }
 }
