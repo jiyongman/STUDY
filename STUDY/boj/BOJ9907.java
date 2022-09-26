@@ -6,22 +6,17 @@ public class BOJ9907 { // ID
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        int N = sc.nextInt();
+        String N = sc.next();
         int sum = 0;
-        int i = 2;
+        int j = 2;
 
-        while (true) {
-            sum += N % 10 * i;
-            N /= 10;
-            i++;
-
-            if (N == 0) {
-                break;
+        for (int i = 0; i < N.length(); i++) {
+            if (j < 2) {
+                j = 7;
             }
 
-            if (i > 7) {
-                i = 2;
-            }
+            sum += (N.charAt(i) - '0') * j;
+            j--;
         }
 
         String str = "JABCDEFGHIZ";
