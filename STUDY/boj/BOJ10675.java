@@ -22,7 +22,8 @@ public class BOJ10675 { // Cow Routing
                 if (A == C) {
                     cnt++;
                 }
-                if (B == C && cnt == 1) {
+
+                if (B == C && cnt > 0) {
                     min = Math.min(min, X);
                 }
             }
