@@ -11,7 +11,7 @@ public class BOJ25641 { // 균형 잡힌 소떡소떡
         int s = 0;
         int t = 0;
 
-        for (int i = 0; i < str.length(); i++) {
+        for (int i = 0; i < N; i++) {
             if (str.charAt(i) == 's') {
                 s++;
             } else {
@@ -35,7 +35,7 @@ public class BOJ25641 { // 균형 잡힌 소떡소떡
             j++;
         }
 
-        for (int i = j; i < str.length(); i++) {
+        for (int i = j; i < N; i++) {
             System.out.print(str.charAt(i));
         }
 
