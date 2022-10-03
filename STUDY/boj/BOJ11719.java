@@ -9,6 +9,7 @@ public class BOJ11719 { // 그대로 출력하기 2
 
         while (sc.hasNextLine()) {
             String str = sc.nextLine();
+
             System.out.println(str);
         }
 
