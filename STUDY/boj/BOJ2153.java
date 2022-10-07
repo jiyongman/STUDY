@@ -17,20 +17,14 @@ public class BOJ2153 { // 소수 단어
             }
         }
 
-        int cnt = 0;
-
-        for (int i = 1; i <= 1240; i++) {
+        for (int i = 2; i < sum; i++) {
             if (sum % i == 0) {
-                cnt++;
+                System.out.println("It is not a prime word.");
+                return;
             }
         }
 
-        if (cnt == 2 || sum == 1) {
-            System.out.println("It is a prime word.");
-        } else {
-            System.out.println("It is not a prime word.");
-        }
-
+        System.out.println("It is a prime word.");
         sc.close();
     }
 }
