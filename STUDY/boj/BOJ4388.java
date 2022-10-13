@@ -40,8 +40,8 @@ public class BOJ4388 { // 받아올림
                 int a = str.charAt(i) - '0';
                 int b = str2.charAt(i) - '0';
 
-                if (a + b >= 10 || (a + b >= 9 && carry > 0)) {
-                    carry++;
+                if (a + b + carry >= 10) {
+                    carry = (a + b + carry) / 10;
                     cnt++;
                 } else {
                     carry = 0;
