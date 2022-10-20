@@ -26,7 +26,7 @@ public class BOJ13300 { // 방 배정
                     } else {
                         cnt += arr[i][j] / K + 1;
                     }
-                } else if (arr[i][j] > 0){
+                } else if (arr[i][j] > 0) {
                     cnt++;
                 }
             }
