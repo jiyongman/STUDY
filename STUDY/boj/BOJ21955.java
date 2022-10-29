@@ -8,13 +8,11 @@ public class BOJ21955 { // Split
         Scanner sc = new Scanner(System.in);
         String N = sc.next(); // the number told by Mihai’s mother
 
-        for (int i = 0; i < N.length() / 2; i++) {
-            System.out.print(N.charAt(i));
-        }
+        for (int i = 0; i < N.length(); i++) {
+            if (i == N.length() / 2) {
+                System.out.print(" ");
+            }
 
-        System.out.print(" ");
-
-        for (int i = N.length() / 2; i < N.length(); i++) {
             System.out.print(N.charAt(i));
         }
 
