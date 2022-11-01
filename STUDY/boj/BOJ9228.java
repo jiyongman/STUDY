@@ -30,7 +30,7 @@ public class BOJ9228 { // Check Digits
                 System.out.printf("%s -> %d\n", str, tmp);
             } else if (tmp == 10) {
                 System.out.printf("%s -> %s\n", str, str2);
-            } else if (tmp > 10) {
+            } else {
                 System.out.printf("%s -> %d\n", str, 0);
             }
         }
