@@ -21,11 +21,11 @@ public class BOJ16255 { // Martian Volleyball
 
                 if (x >= y) {
                     x++;
-                    cnt++;
                 } else {
                     y++;
-                    cnt++;
                 }
+
+                cnt++;
             }
 
             System.out.println(cnt);
