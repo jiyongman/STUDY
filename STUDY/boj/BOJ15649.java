@@ -25,7 +25,7 @@ public class BOJ15649 { // N과 M (1)
 
         if (k == M) {
             for (int i = 0; i < M; i++) {
-                sb.append(String.format("%d ", arr[i]));
+                sb.append(arr[i]).append(" ");
             }
             sb.append("\n");
             return;
